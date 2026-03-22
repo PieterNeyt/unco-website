@@ -1,0 +1,105 @@
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  padding: 0.28rem 0.9rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--teal-d);
+  margin-bottom: 1.4rem;
+}
+
+.h1 {
+  font-weight: 800;
+  font-size: clamp(3rem, 6vw, 5rem);
+  line-height: 1.0;
+  letter-spacing: -0.035em;
+  color: var(--navy);
+  margin-bottom: 1.1rem;
+}
+
+.teal { color: var(--teal); }
+
+.desc {
+  font-size: 1rem;
+  color: var(--muted);
+  line-height: 1.8;
+  max-width: 420px;
+  margin-bottom: 2rem;
+}
+
+.ctas {
+  display: flex;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+}
+
+/* Stats grid */
+.stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.stat {
+  background: var(--white);
+  border-radius: var(--radius);
+  padding: 1.4rem;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+.statTeal {
+  background: var(--teal);
+  border-color: transparent;
+}
+.statTeal .statVal { color: #fff; }
+.statTeal .statKey { color: rgba(255, 255, 255, 0.7); }
+.statTeal .statSub { color: rgba(255, 255, 255, 0.55); }
+
+.statNavy {
+  background: var(--navy);
+  border-color: transparent;
+}
+.statNavy .statVal { color: var(--teal); }
+.statNavy .statKey { color: rgba(255, 255, 255, 0.6); }
+.statNavy .statSub { color: rgba(255, 255, 255, 0.35); }
+
+.statVal {
+  font-weight: 800;
+  font-size: 2.4rem;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: var(--teal);
+  margin-bottom: 0.2rem;
+}
+
+.statKey {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.statSub {
+  font-size: 0.75rem;
+  color: var(--light);
+  margin-top: 0.2rem;
+}
+
+@media (max-width: 800px) {
+  .layout { grid-template-columns: 1fr; gap: 2.5rem; }
+}

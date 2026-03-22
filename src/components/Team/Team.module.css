@@ -1,0 +1,54 @@
+.layout {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 5rem;
+  align-items: start;
+}
+
+.aside {}
+
+.desc {
+  font-size: 0.9rem;
+  color: var(--muted);
+  line-height: 1.75;
+  margin-top: 0.75rem;
+}
+
+.platformList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.platformItem {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+  padding: 0.5rem 0.75rem;
+  background: var(--white);
+  border-radius: 9px;
+  border: 1px solid var(--border);
+  font-weight: 500;
+}
+
+.platformNum {
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: var(--light);
+  width: 16px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+@media (max-width: 860px) {
+  .layout { grid-template-columns: 1fr; gap: 2.5rem; }
+  .cards { grid-template-columns: 1fr; }
+}

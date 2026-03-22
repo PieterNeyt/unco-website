@@ -1,0 +1,188 @@
+/* ── DESIGN TOKENS ── */
+:root {
+  --sand: #cec8b4;
+  --sand-l: #ddd8c8;
+  --sand-d: #b5ae9c;
+  --white: #fff;
+  --card: #f5f3ee;
+  --teal: #4ab8b8;
+  --teal-d: #3a9e9e;
+  --teal-l: #e8f7f7;
+  --navy: #1a2332;
+  --navy-l: #253347;
+  --text: #2d2d2d;
+  --muted: #6e6e62;
+  --light: #a8a89a;
+  --border: rgba(0, 0, 0, 0.08);
+  --shadow: 0 2px 20px rgba(0, 0, 0, 0.07);
+  --shadow-hover: 0 10px 32px rgba(0, 0, 0, 0.11);
+  --radius: 14px;
+  --radius-sm: 9px;
+  --f: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+}
+
+/* ── RESET ── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--sand);
+  color: var(--text);
+  font-family: var(--f), serif;
+  font-size: 15px;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* ── SHARED LAYOUT ── */
+.panel {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  padding: 80px 48px 48px;
+}
+
+.panel::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle, rgba(0, 0, 0, 0.07) 1px, transparent 1px);
+  background-size: 28px 28px;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.panel-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 1060px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (max-width: 680px) {
+  .panel {
+    padding: 80px 24px 40px;
+  }
+}
+
+/* ── SHARED TYPOGRAPHY ── */
+.label {
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--teal);
+  margin-bottom: 0.45rem;
+  display: block;
+}
+
+.label-inv {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.sec-title {
+  font-weight: 800;
+  font-size: clamp(2rem, 4vw, 3rem);
+  letter-spacing: -0.03em;
+  color: var(--navy);
+  line-height: 1.05;
+}
+
+.sec-title-inv {
+  color: #fff;
+}
+
+.sec-sub {
+  font-size: 0.95rem;
+  color: var(--muted);
+  max-width: 480px;
+  line-height: 1.75;
+  margin-top: 0.65rem;
+}
+
+.sec-sub-inv {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* ── SHARED BUTTONS ── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--f), serif;
+  font-weight: 600;
+  font-size: 0.85rem;
+  padding: 0.65rem 1.4rem;
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.17s;
+}
+
+.btn-teal {
+  background: var(--teal);
+  color: #fff;
+}
+
+.btn-teal:hover {
+  background: var(--teal-d);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(74, 184, 184, 0.4);
+}
+
+.btn-outline {
+  background: var(--white);
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+.btn-outline:hover {
+  border-color: var(--teal);
+}
+
+/* ── SHARED TAGS ── */
+.tag {
+  display: inline-block;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 20px;
+  background: var(--teal-l);
+  color: var(--teal-d);
+}
+
+.tag-inv {
+  background: rgba(74, 184, 184, 0.15);
+  color: var(--teal);
+}
+
+/* ── REVEAL ANIMATION ── */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.reveal.in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal.delay-1 { transition-delay: 0.1s; }
+.reveal.delay-2 { transition-delay: 0.2s; }
+.reveal.delay-3 { transition-delay: 0.32s; }
+.reveal.delay-4 { transition-delay: 0.45s; }

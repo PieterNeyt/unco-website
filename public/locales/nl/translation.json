@@ -1,0 +1,148 @@
+{
+  "article": {
+    "sub-tit": "Het artikel",
+    "title": "Waarom de eerste 100 dagen alles bepalen",
+    "tags": {
+      "success": "Studentensucces",
+      "gamification": "Gamification",
+      "reward": "Beloning"
+    },
+    "march": "Maart",
+    "read": "Lees volledig artikel [ coming soon ]→",
+    "quote": "Sense of belonging is geen luxe. Het is een voorwaarde voor leren.",
+    "alinea1": "Studenten die er niet in slagen te integreren binnen de eerste 100 dagen hebben een aanzienlijk hogere kans om vóór hun tweede jaar uit te vallen.",
+    "kop1": "De Dubbele Uitdaging",
+    "alinea2": "Hoger onderwijs vereist academische integratie (aanwezigheid, actieve deelname, deadlines) én sociale integratie (vrienden vinden, zelfvertrouwen opbouwen in een onbekende omgeving).",
+    "kop2": "Een Positieve Feedbackloop",
+    "alinea3": "Door game-mechanismen — levels, collectibles, peer-erkenning — transformeert Quest100 prosociaal gedrag in intrinsiek motiverende activiteiten voor ~14.000 KdG-studenten over 77 opleidingen."
+  },
+  "features": {
+    "span": "Wat we gebouwd hebben",
+    "title": "Vier pijlers van integratie",
+    "sub": "Elk mechanisme dient één doel: studenten snel thuis laten voelen op KdG.",
+    "features": {
+      "eco": {
+        "title": "Kudos Ecosysteem",
+        "desc": "Peer-to-peer awards en docent kudos via een puur positieve feedbackloop.",
+        "tag": "Gamification"
+      },
+      "gotcha": {
+        "title": "Gotcha Game",
+        "desc": "Een campusbrede interactief spel dat studenten laat verkennen en ontmoeten.",
+        "tag": "Engagement"
+      },
+      "avatar": {
+        "title": "Gopher Avatars",
+        "desc": "Level je Gopher op met outfits, haar en accessoires naarmate je kudos verdient.",
+        "tag": "Identiteit"
+      },
+      "event": {
+        "title": "Evenementen",
+        "desc": "Ontdek en maak events om samen dingen te doen. Verdien punten en bouw herinneringen.",
+        "tag": "Community"
+      },
+      "sso": {
+        "title": "KdG SSO Integratie",
+        "desc": "Volledige Single Sign-On + 2FA. Automatische AD onboarding elke oktober.",
+        "tag": "Infrastructuur"
+      }
+    }
+  },
+  "footer": {
+    "home": "Home",
+    "feature": "Features",
+    "pitch": "Pitch",
+    "article": "Artikel",
+    "kudos": "Kudos",
+    "slides": "Slides",
+    "team": "Team"
+  },
+  "hero": {
+    "sub-tit": "Jouw eerste 100 dagen bij KdG",
+    "title": "Welkom bij",
+    "sub-txt": "Het gamified social platform dat je eerste 100 dagen onvergetelijk maakt, van aanwezigheid scannen tot avatar customization.",
+    "pitch": "Bekijk de pitch",
+    "feature": "Ontdek features",
+    "today": "vandaag",
+    "day": "Dag",
+    "of": "van",
+    "student": "Studenten",
+    "staff": "stafleden,",
+    "course": "Opleidingen",
+    "program": "Multi-programma"
+  },
+  "kudos": {
+    "sub-tit": "Kudo Systeem",
+    "title": "Hoe je Kudos verdient",
+    "sub-txt": "Elke actie die community, academische gewoonten of peer-erkenning opbouwt wordt beloond.",
+    "archetypes": {
+      "wizard": {
+        "name": "Knowledge Wizard",
+        "desc": "Verdient kudos voor inzichten en vragen in de les"
+      },
+      "player": {
+        "name": "Team Player",
+        "desc": "Scoort hoog op peer-to-peer awards en groepswerk"
+      },
+      "maker": {
+        "name": "Atmosphere Maker",
+        "desc": "Organiseert events en betrekt anderen op campus"
+      }
+    },
+    "type": "Type Actie",
+    "desc": "Beschrijving",
+    "dir": "Richting",
+    "kudo-rows": {
+      "scan": {
+        "action": "Aanwezigheidsscan",
+        "desc": "Scan een dynamische QR-code gegenereerd door de docent op basis van het live rooster",
+        "dir": "Auto"
+      },
+      "kudos": {
+        "action": "Peer Kudos",
+        "desc": "Geef klasgenoten een award voor behulpzaamheid of sterk teamwerk",
+        "dir": "P2P"
+      },
+      "doc-stud": {
+        "action": "Docent → Student",
+        "desc": "Belonen van innovatieve inzichten of consistente vooruitgang",
+        "dir": "Staf"
+      },
+      "stud-doc": {
+        "action": "Student → Docent",
+        "desc": "Props geven voor duidelijke uitleg of een goed getimede grap",
+        "dir": "Omgekeerd"
+      },
+      "quest": {
+        "action": "Quest Voltooiing",
+        "desc": "Voltooi Gotcha",
+        "dir": "Game"
+      },
+      "event": {
+        "action": "Evenement Deelname",
+        "desc": "Sluit je aan bij community-evenementen via het platform",
+        "dir": "Sociaal"
+      }
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "feature": "Features",
+    "pitch": "Pitch",
+    "article": "Artikel",
+    "kudos": "Kudos",
+    "slides": "Slides",
+    "team": "Team"
+  },
+  "pitch": {
+    "sub-tit": "Pitch video",
+    "title": "Bekijk onze pitch",
+    "text": "Een korte demo van Quest100 — het probleem, de oplossing en onze visie voor studentintegratie bij KdG. Drie minuten die alles uitleggen.",
+    "sub-txt": "Gemaakt voor het"
+  },
+  "team":{
+    "sub-tit": "Het team",
+    "title": "De bouwers",
+    "text": "Drie studenten met een missie om de eerste 100 dagen echt te laten tellen."
+  }
+}
