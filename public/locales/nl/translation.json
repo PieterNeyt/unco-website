@@ -43,7 +43,7 @@
       },
       "sso": {
         "title": "KdG SSO Integratie",
-        "desc": "Volledige Single Sign-On + 2FA. Automatische AD onboarding elke oktober.",
+        "desc": "Volledige Single Sign-On + 2FA.",
         "tag": "Infrastructuur"
       }
     }
@@ -77,16 +77,24 @@
     "sub-txt": "Elke actie die community, academische gewoonten of peer-erkenning opbouwt wordt beloond.",
     "archetypes": {
       "wizard": {
-        "name": "Knowledge Wizard",
-        "desc": "Verdient kudos voor inzichten en vragen in de les"
+        "name": "Kenniswizard",
+        "desc": "Verdient kudos voor scherpe inzichten en het stellen van vragen die de hele groep helpen de leerstof beter te begrijpen."
       },
-      "player": {
-        "name": "Team Player",
-        "desc": "Scoort hoog op peer-to-peer awards en groepswerk"
+      "catalyst": {
+        "name": "Teamkatalysator",
+        "desc": "De lijm van de groep; scoort hoog op peer-to-peer awards voor sterke samenwerking en het ondersteunen van teamgenoten."
       },
       "maker": {
-        "name": "Atmosphere Maker",
-        "desc": "Organiseert events en betrekt anderen op campus"
+        "name": "Sfeermaker",
+        "desc": "Het sociale hart van de campus; verdient punten door evenementen te organiseren en mensen samen te brengen."
+      },
+      "explorer": {
+        "name": "Campusverkenner",
+        "desc": "Meester van het 'Gotcha' spel en fysieke ontdekking; verdient kudos door elke hoek van de KdG-campussen te verkennen."
+      },
+      "guardian": {
+        "name": "Academische Bewaker",
+        "desc": "Het toonbeeld van betrouwbaarheid; verdient beloningen voor consistente aanwezigheid en het succesvol halen van deadlines."
       }
     },
     "type": "Type Actie",
@@ -137,10 +145,16 @@
   "pitch": {
     "sub-tit": "Pitch video",
     "title": "Bekijk onze pitch",
-    "text": "Een korte demo van Quest100 — het probleem, de oplossing en onze visie voor studentintegratie bij KdG. Drie minuten die alles uitleggen.",
+    "text": "Een korte demo van Quest100: het probleem, de oplossing en onze visie voor studentintegratie bij KdG. Drie minuten die alles uitleggen.",
     "sub-txt": "Gemaakt voor het"
   },
-  "team":{
+  "slides": {
+    "sub-tit": "Presentatie",
+    "title": "Conference slides",
+    "sub-txt": "Slide deck van onze pitch. Klik om te bekijken of te downloaden.",
+    "note": "Gebouwd met Angular aan de frontend en Go (Golang) als backend. Live gekoppeld aan het KdG-rooster, Active Directory en Single Sign-On."
+  },
+  "team": {
     "sub-tit": "Het team",
     "title": "De bouwers",
     "text": "Drie studenten met een missie om de eerste 100 dagen echt te laten tellen."

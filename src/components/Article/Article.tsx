@@ -34,23 +34,23 @@ export default function Article() {
                     </div>
 
                     <div className={styles.right}>
-                        <blockquote className={`${styles.quote} reveal`}>
-                            "{t("article.quote")}"
-                        </blockquote>
+                        {/*<blockquote className={`${styles.quote} reveal`}>*/}
+                        {/*    "{t("article.quote")}"*/}
+                        {/*</blockquote>*/}
 
-                        <div className={styles.body}>
-                            <p className="reveal delay-1">
-                                {t("article.alinea1")}
-                            </p>
-                            <h3 className="reveal delay-2">{t("article.kop1")}</h3>
-                            <p className="reveal delay-2">
-                                {t("article.alinea2")}
-                            </p>
-                            <h3 className="reveal delay-3">{t("article.kop2")}</h3>
-                            <p className="reveal delay-3">
-                                {t("article.alinea3")}
-                            </p>
-                        </div>
+                        {/*<div className={styles.body}>*/}
+                        {/*    <p className="reveal delay-1">*/}
+                        {/*        {t("article.alinea1")}*/}
+                        {/*    </p>*/}
+                        {/*    <h3 className="reveal delay-2">{t("article.kop1")}</h3>*/}
+                        {/*    <p className="reveal delay-2">*/}
+                        {/*        {t("article.alinea2")}*/}
+                        {/*    </p>*/}
+                        {/*    <h3 className="reveal delay-3">{t("article.kop2")}</h3>*/}
+                        {/*    <p className="reveal delay-3">*/}
+                        {/*        {t("article.alinea3")}*/}
+                        {/*    </p>*/}
+                        {/*</div>*/}
                     </div>
 
                 </div>

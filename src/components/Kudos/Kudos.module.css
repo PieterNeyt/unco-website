@@ -1,86 +1,121 @@
-.layout {
-  display: grid;
-  grid-template-columns: 1fr 1.6fr;
-  gap: 5rem;
-  align-items: center;
+.heading {
+    margin-bottom: 2.5rem;
 }
 
-.archetypes {
-  display: flex;
-  flex-direction: column;
-  gap: 0.65rem;
-  margin-top: 1.5rem;
+.layout {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 2.5rem;
+    align-items: stretch;
+}
+
+.archGrid {
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
 }
 
 .archItem {
-  display: flex;
-  align-items: flex-start;
-  gap: 0.8rem;
-  padding: 0.85rem 1rem;
-  border-radius: 10px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+    display: flex;
+    align-items: flex-start;
+    gap: 0.8rem;
+    padding: 0.8rem 0.85rem;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    transition: background 0.15s;
+}
+
+.archItem:hover {
+    background: rgba(255, 255, 255, 0.07);
 }
 
 .archIcon {
-  font-size: 1.3rem;
-  flex-shrink: 0;
-  margin-top: 1px;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+    margin-top: 1px;
 }
 
 .archName {
-  font-size: 0.85rem;
-  font-weight: 700;
-  color: #fff;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.3;
 }
 
 .archDesc {
-  font-size: 0.75rem;
-  color: rgba(255, 255, 255, 0.45);
-  line-height: 1.5;
-  margin-top: 0.1rem;
+    font-size: 0.72rem;
+    color: rgba(255, 255, 255, 0.45);
+    line-height: 1.5;
+    margin-top: 0.2rem;
 }
 
-/* Table */
+.tableWrap {
+    height: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
 .table {
-  width: 100%;
-  border-collapse: collapse;
-  background: rgba(255, 255, 255, 0.04);
-  border-radius: 12px;
-  overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+    height: 100%;
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.04);
 }
 
 .table thead th {
-  font-size: 0.62rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.35);
-  text-align: left;
-  padding: 0.8rem 1.1rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.35);
+    text-align: left;
+    padding: 0.8rem 1.1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .table tbody tr {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-  transition: background 0.12s;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    transition: background 0.12s;
 }
 
-.table tbody tr:last-child { border-bottom: none; }
-.table tbody tr:hover { background: rgba(255, 255, 255, 0.04); }
+.table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.table tbody tr:hover {
+    background: rgba(255, 255, 255, 0.04);
+}
 
 .table tbody td {
-  padding: 0.75rem 1.1rem;
-  font-size: 0.82rem;
-  color: rgba(255, 255, 255, 0.5);
+    padding: 0.75rem 1.1rem;
+    font-size: 0.82rem;
+    color: rgba(255, 255, 255, 0.5);
+    vertical-align: middle;
 }
+
 
 .table tbody td:first-child {
-  font-weight: 600;
-  color: rgba(255, 255, 255, 0.85);
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.85);
+    white-space: nowrap;
 }
 
-@media (max-width: 800px) {
-  .layout { grid-template-columns: 1fr; gap: 2.5rem; }
+
+@media (max-width: 900px) {
+    .layout {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .archeGrid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 500px) {
+    .archeGrid {
+        grid-template-columns: 1fr;
+    }
 }

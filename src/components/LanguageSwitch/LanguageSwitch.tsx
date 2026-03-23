@@ -1,27 +1,27 @@
-import { useTranslation } from 'react-i18next'
-import styles from './LanguageSwitch.module.css'
+import {useTranslation} from "react-i18next"
+import styles from "./LanguageSwitch.module.css"
 
 const LANGS = [
-    { code: 'nl', label: 'NL' },
-    { code: 'en', label: 'EN' },
+    {code: "nl", flagClass: "fi fi-be"},
+    {code: "en", flagClass: "fi fi-gb"},
 ]
 
 export default function LanguageSwitch() {
-    const { i18n } = useTranslation()
+    const {i18n} = useTranslation()
     const current = i18n.resolvedLanguage
 
     return (
         <div className={styles.wrap}>
-            {LANGS.map(({ code, label }) => (
+            {LANGS.map(({code, flagClass}) => (
                 <button
                     key={code}
-                    className={`${styles.btn} ${current === code ? styles.active : ''}`}
+                    className={`${styles.btn} ${current === code ? styles.active : ""}`}
                     onClick={() => i18n.changeLanguage(code)}
-                    aria-label={`Switch to ${label}`}
+                    aria-label={`Switch to ${code}`}
                     aria-pressed={current === code}
                 >
-                    <span className={`${styles.flag} ${styles[`flag${code.toUpperCase()}`]}`} />
-                    {label}
+                    <span className={`${styles.flag} ${flagClass}`}/>
+                    {code.toUpperCase()}
                 </button>
             ))}
         </div>

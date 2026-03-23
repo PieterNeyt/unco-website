@@ -15,7 +15,7 @@ export default function Pitch() {
               {t("pitch.text")}
             </p>
             <p className={`${styles.meta} reveal delay-3`}>
-              {t("pitch.sub-txt")}
+              {t("pitch.sub-txt")} KdG Innovation Lab, 2026.
             </p>
           </div>
 

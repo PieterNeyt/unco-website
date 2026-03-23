@@ -43,7 +43,7 @@
       },
       "sso": {
         "title": "KdG SSO Integration",
-        "desc": "Full Single Sign-On + 2FA. Automatic AD onboarding every October.",
+        "desc": "Full Single Sign-On + 2FA.",
         "tag": "Infrastructure"
       }
     }
@@ -78,15 +78,23 @@
     "archetypes": {
       "wizard": {
         "name": "Knowledge Wizard",
-        "desc": "Earns kudos for insights and questions in class"
+        "desc": "Earns kudos for sharp insights and asking the questions that help everyone understand the material better."
       },
-      "player": {
-        "name": "Team Player",
-        "desc": "Scores high on peer-to-peer awards and group work"
+      "catalyst": {
+        "name": "Team Catalyst",
+        "desc": "The glue of the group, scores high on peer-to-peer awards for collaboration and lifting up their teammates."
       },
       "maker": {
         "name": "Atmosphere Maker",
-        "desc": "Organizes events and engages others on campus"
+        "desc": "The social heartbeat of the campus, earns points by organizing events and bringing people together."
+      },
+      "explorer": {
+        "name": "Campus Explorer",
+        "desc": "Master of the 'Gotcha' game and physical discovery, earns kudos by navigating every corner of the KdG campuses."
+      },
+      "guardian": {
+        "name": "Academic Guardian",
+        "desc": "The epitome of reliability, earns rewards for consistent attendance, meeting deadlines, and maintaining a steady academic pace."
       }
     },
     "type": "Action Type",
@@ -137,8 +145,14 @@
   "pitch": {
     "sub-tit": "Pitch video",
     "title": "Watch our pitch",
-    "text": "A short demo of Quest100 — the problem, the solution, and our vision for student integration at KdG. Three minutes that explain everything.",
+    "text": "A short demo of Quest100: the problem, the solution, and our vision for student integration at KdG. Three minutes that explain everything.",
     "sub-txt": "Created for the"
+  },
+  "slides": {
+    "sub-tit": "Presentation",
+    "title": "Conference slides",
+    "sub-txt": "Slide deck from our pitch. Click to view or download.",
+    "note": "Built with Angular on the frontend and Go (Golang) as the backend. Live-integrated with the KdG schedule, Active Directory, and Single Sign-On."
   },
   "team": {
     "sub-tit": "The team",

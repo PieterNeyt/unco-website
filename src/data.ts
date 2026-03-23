@@ -63,8 +63,10 @@ export const KUDOS_ROWS = [
 // ── ARCHETYPES ────────────────────────────────────────
 export const ARCHETYPES = [
     {icon: '🧙', type: "wizard"},
-    {icon: '🤝', type: "player"},
+    {icon: '🤝', type: "catalyst"},
     {icon: '🎉', type: "maker"},
+    {icon: '🧭', type: "explorer"},
+    {icon: '🛡️', type: "guardian"},
 ]
 
 // ── SLIDES ────────────────────────────────────────────

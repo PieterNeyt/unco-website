@@ -25,7 +25,9 @@
     transition: background 0.15s, color 0.15s;
 }
 
-.btn:hover { color: var(--text); }
+.btn:hover {
+    color: var(--text);
+}
 
 .active {
     background: var(--card);
@@ -41,39 +43,4 @@
     flex-shrink: 0;
     overflow: hidden;
     position: relative;
-    background: #012169;
-}
-
-/* Belgian flag */
-.flagNL { background: #000; }
-.flagNL::before {
-    content: '';
-    position: absolute;
-    left: 33%; top: 0; bottom: 0; width: 34%;
-    background: #FFD100;
-}
-.flagNL::after {
-    content: '';
-    position: absolute;
-    right: 0; top: 0; bottom: 0; width: 33%;
-    background: #EF3340;
-}
-
-/* UK flag */
-.flagEN { background: #012169; }
-.flagEN::before {
-    content: '';
-    position: absolute; inset: 0;
-    background:
-            linear-gradient(to bottom right, transparent 46%, #fff 46%, #fff 54%, transparent 54%),
-            linear-gradient(to bottom left,  transparent 46%, #fff 46%, #fff 54%, transparent 54%);
-}
-.flagEN::after {
-    content: '';
-    position: absolute;
-    top: 50%; left: 0; right: 0;
-    height: 34%;
-    transform: translateY(-50%);
-    background: #CF142B;
-    box-shadow: 0 0 0 2px #fff;
 }
