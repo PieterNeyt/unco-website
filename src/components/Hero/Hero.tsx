@@ -43,9 +43,8 @@ export default function Hero() {
               <div className={styles.statSub}>{t("hero.program")}</div>
             </div>
             <div className={`${styles.stat} ${styles.statNavy}`}>
-              <div className={styles.statVal}>100%</div>
-              <div className={styles.statKey}>KdG SSO</div>
-              <div className={styles.statSub}>Angular + Go</div>
+              <div className={styles.statVal}>KdG</div>
+              <div className={styles.statKey}>Karel de Grote Hogeschool</div>
             </div>
           </div>
 

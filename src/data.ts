@@ -27,8 +27,10 @@ export const FEATURES = [
     {icon: '⚡', type: "eco"},
     {icon: '🎯', type: "gotcha"},
     {icon: '🦫', type: "avatar"},
-    {icon: '📅', type: "event"},
     {icon: '🔐', type: "sso"},
+    {icon: '📅', type: "event"},
+    {icon: "🥇", type: "leader"},
+    {icon: "🎮️", type: "mini"},
 ]
 
 // ── KUDOS TABLE ────────────────────────────────────────

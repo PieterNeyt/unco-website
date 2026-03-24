@@ -1,20 +1,15 @@
 {
   "article": {
     "sub-tit": "The article",
-    "title": "Why the first 100 days define everything",
-    "tags": {
-      "success": "Student Success",
-      "gamification": "Gamification",
-      "reward": "Reward"
-    },
+    "title": "What are the pros and cons of Go compared to Java and .NET when developing a REST API?",
     "march": "March",
-    "read": "Read full article [ coming soon ]→",
-    "quote": "Sense of belonging isn't a luxury. It's a prerequisite for learning.",
-    "alinea1": "Students who fail to integrate within the first 100 days have a significantly higher chance of dropping out before their second year.",
-    "kop1": "The Double Challenge",
-    "alinea2": "Higher education requires academic integration (attendance, active participation, deadlines) and social integration (finding friends, building confidence in an unfamiliar environment).",
-    "kop2": "A Positive Feedback Loop",
-    "alinea3": "Through game mechanics — levels, collectibles, peer recognition — Quest100 transforms pro-social behavior into intrinsically motivating activities for ~14,000 KdG students across 77 programs."
+    "read": "Read full article →",
+    "quote": "In software development, simplicity is not a luxury, but a prerequisite for scalability.",
+    "alinea1": "In a landscape dominated by cloud-native microservices, startup times and memory usage are increasingly determining a project’s architectural success.",
+    "kop1": "The Efficiency Paradox",
+    "alinea2": "Go stands out for its lightweight binaries and minimal memory footprint, while Java and .NET boast decades of maturity, extensive libraries, and advanced JIT optimizations.",
+    "kop2": "Speed vs. Ecosystem",
+    "alinea3": "By replacing complex abstractions with powerful “goroutines” and a minimalist syntax, Go enables developers to build high-performance systems that are easier to maintain and cheaper to host than traditional enterprise stacks."
   },
   "features": {
     "span": "What we built",
@@ -45,6 +40,16 @@
         "title": "KdG SSO Integration",
         "desc": "Full Single Sign-On + 2FA.",
         "tag": "Infrastructure"
+      },
+      "leader": {
+        "title": "Leaderboard",
+        "desc": "Race against other classes in the same direction and collect as many kudos as possible as quickly as you can to win prizes from KdG.",
+        "tag": "Community"
+      },
+      "mini": {
+        "title": "Mini games",
+        "desc": "Play three unique versions of our built-in minigames every day: math Wordle (Nerdle), the classic Minesweeper, and Sudoku!",
+        "tag": "Gamification"
       }
     }
   },
@@ -145,7 +150,7 @@
   "pitch": {
     "sub-tit": "Pitch video",
     "title": "Watch our pitch",
-    "text": "A short demo of Quest100: the problem, the solution, and our vision for student integration at KdG. Three minutes that explain everything.",
+    "text": "A short demo of Quest100: the solution and our vision for student integration at KdG.",
     "sub-txt": "Created for the"
   },
   "slides": {

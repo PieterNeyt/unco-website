@@ -1,20 +1,15 @@
 {
   "article": {
     "sub-tit": "Het artikel",
-    "title": "Waarom de eerste 100 dagen alles bepalen",
-    "tags": {
-      "success": "Studentensucces",
-      "gamification": "Gamification",
-      "reward": "Beloning"
-    },
+    "title": "Wat zijn de voor- en nadelen van Go ten opzichte van Java en .NET bij de ontwikkeling van een REST API?",
     "march": "Maart",
-    "read": "Lees volledig artikel [ coming soon ]→",
-    "quote": "Sense of belonging is geen luxe. Het is een voorwaarde voor leren.",
-    "alinea1": "Studenten die er niet in slagen te integreren binnen de eerste 100 dagen hebben een aanzienlijk hogere kans om vóór hun tweede jaar uit te vallen.",
-    "kop1": "De Dubbele Uitdaging",
-    "alinea2": "Hoger onderwijs vereist academische integratie (aanwezigheid, actieve deelname, deadlines) én sociale integratie (vrienden vinden, zelfvertrouwen opbouwen in een onbekende omgeving).",
-    "kop2": "Een Positieve Feedbackloop",
-    "alinea3": "Door game-mechanismen — levels, collectibles, peer-erkenning — transformeert Quest100 prosociaal gedrag in intrinsiek motiverende activiteiten voor ~14.000 KdG-studenten over 77 opleidingen."
+    "read": "Lees volledig artikel →",
+    "quote": "Eenvoud is in softwareontwikkeling geen luxe, maar een voorwaarde voor schaalbaarheid.",
+    "alinea1": "In een landschap dat gedomineerd wordt door cloud-native microservices, bepalen opstarttijden en geheugengebruik steeds vaker de architecturale winst van een project.",
+    "kop1": "De Efficiëntie-paradox",
+    "alinea2": "Go blinkt uit door zijn lichtgewicht binaries en minimale geheugenvoetafdruk, terwijl Java en .NET bogen op decennia aan volwassenheid, uitgebreide bibliotheken en geavanceerde JIT-optimalisaties.",
+    "kop2": "Snelheid versus Ecosysteem",
+    "alinea3": "Door complexe abstracties te vervangen door krachtige 'goroutines' en een minimalistische syntax, stelt Go ontwikkelaars in staat om hoogperformante systemen te bouwen die eenvoudiger te onderhouden en goedkoper te hosten zijn dan traditionele enterprise-stacks."
   },
   "features": {
     "span": "Wat we gebouwd hebben",
@@ -45,6 +40,16 @@
         "title": "KdG SSO Integratie",
         "desc": "Volledige Single Sign-On + 2FA.",
         "tag": "Infrastructuur"
+      },
+      "leader": {
+        "title": "Leaderboard",
+        "desc": "Race tegen andere klassen in dezelfde richting en verzamel zo snel mogelijk zoveel mogelijk kudos om prijzen te winnen van KdG.",
+        "tag": "Community"
+      },
+      "mini": {
+        "title": "Mini games",
+        "desc": "Speel elke dag opnieuw drie unieke versies van onze ingebouwde minigames: reken-Wordle (Nerdle), de oude maar vertrouwde Minesweeper en Sudoku!",
+        "tag": "Gamification"
       }
     }
   },
@@ -145,7 +150,7 @@
   "pitch": {
     "sub-tit": "Pitch video",
     "title": "Bekijk onze pitch",
-    "text": "Een korte demo van Quest100: het probleem, de oplossing en onze visie voor studentintegratie bij KdG. Drie minuten die alles uitleggen.",
+    "text": "Een korte demo van Quest100: de oplossing en onze visie voor studentintegratie bij KdG.",
     "sub-txt": "Gemaakt voor het"
   },
   "slides": {
