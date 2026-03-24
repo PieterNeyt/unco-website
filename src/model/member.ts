@@ -1,11 +1,6 @@
 export interface Member {
-    initials: string
-    color: string
+    photo: string
     name: string
-    role: string
-    bio: string
-    kudos: number
-    quests: number
-    level: number
+    major: string
     linkedin: string
 }

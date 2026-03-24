@@ -151,12 +151,33 @@
   "slides": {
     "sub-tit": "Presentation",
     "title": "Conference slides",
-    "sub-txt": "Slide deck from our pitch. Click to view or download.",
-    "note": "Built with Angular on the frontend and Go (Golang) as the backend. Live-integrated with the KdG schedule, Active Directory, and Single Sign-On."
+    "sub-txt": "Slide deck from our pitch. Click to view or download."
   },
   "team": {
     "sub-tit": "The team",
     "title": "The builders",
-    "text": "Three students on a mission to make the first 100 days really count."
+    "text": "Three students on a mission to make the first 100 days really count.",
+    "dev": "Application Development"
+  },
+  "toolbar": {
+    "zoom": {
+      "in": "Zoom In",
+      "out": "Zoom Out",
+      "fitPage": "Fit Page",
+      "fitWidth": "Fit Width",
+      "fitHeight": "Fit Height",
+      "actual": "Actual Size"
+    },
+    "viewer": {
+      "download": "Download",
+      "fullscreen": "Fullscreen",
+      "exitFullscreen": "Exit Fullscreen"
+    },
+    "nav": {
+      "prev": "Previous page",
+      "page": "Page",
+      "of": "of",
+      "next": "Next page"
+    }
   }
 }

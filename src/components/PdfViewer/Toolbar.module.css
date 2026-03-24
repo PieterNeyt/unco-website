@@ -1,0 +1,72 @@
+.toolbar {
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    height: 44px;
+    background: #2d2d2d;
+    border-bottom: 1px solid #444;
+    flex-shrink: 0;
+    color: #e0e0e0;
+}
+
+.leftControls {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    flex: 1;
+}
+
+.centerControls {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.rightControls {
+    flex: 1;
+}
+
+.iconBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    border: none;
+    border-radius: 4px;
+    background: transparent;
+    color: #e0e0e0;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.iconBtn:hover {
+    background: #3a3a3a;
+}
+
+.zoomLabel {
+    min-width: 44px;
+    text-align: center;
+    font-size: 13px;
+    color: #e0e0e0;
+    user-select: none;
+}
+
+.divider {
+    width: 1px;
+    height: 20px;
+    background: #555;
+    margin: 0 4px;
+}
+
+.select {
+    background: #3a3a3a;
+    color: #e0e0e0;
+    border: 1px solid #555;
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-size: 13px;
+    cursor: pointer;
+    outline: none;
+}

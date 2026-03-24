@@ -1,11 +1,12 @@
 .layout {
-  display: grid;
-  grid-template-columns: 240px 1fr;
-  gap: 5rem;
-  align-items: start;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
 }
 
-.aside {}
+.aside {
+  max-width: 600px;
+}
 
 .desc {
   font-size: 0.9rem;
@@ -45,10 +46,10 @@
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
+  gap: 24px;
 }
 
 @media (max-width: 860px) {
-  .layout { grid-template-columns: 1fr; gap: 2.5rem; }
-  .cards { grid-template-columns: 1fr; }
+  .layout { gap: 2.5rem; }
+  .cards { grid-template-columns: 1fr; justify-items: center; }
 }

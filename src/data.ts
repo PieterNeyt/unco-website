@@ -3,37 +3,22 @@ import {Member} from "@/model/member.ts";
 
 export const TEAM: Member[] = [
     {
-        initials: 'C',
-        color: '#4ab8b8',
-        name: 'Teamlid 1',
-        role: 'Product & Visie',
-        bio: 'Drijft de productstrategie en zorgt dat Quest100 gefocust blijft op echte studentenbehoeften.',
-        kudos: 47,
-        quests: 12,
-        level: 8,
-        linkedin: 'https://linkedin.com/in/JOUWHANDLE',
+        photo: '/src/assets/hugo.jpg',
+        name: 'Hugo Dor',
+        major: 'dev',
+        linkedin: 'https://www.linkedin.com/in/hugo-dor/',
     },
     {
-        initials: 'A',
-        color: '#7c6cb8',
-        name: 'Teamlid 2',
-        role: 'UX & Onderzoek',
-        bio: 'Leidt gebruikersonderzoek, wireframing en de gamificationlaag. Frictie omzetten naar plezier.',
-        kudos: 63,
-        quests: 18,
-        level: 9,
-        linkedin: 'https://linkedin.com/in/JOUWHANDLE',
+        photo: '/src/assets/pieter.png',
+        name: 'Pieter Neyt',
+        major: 'dev',
+        linkedin: 'https://www.linkedin.com/in/pieter-neyt/',
     },
     {
-        initials: 'B',
-        color: '#4a9e7c',
-        name: 'Teamlid 3',
-        role: 'Tech & Integratie',
-        bio: 'Eigenaar van de technische architectuur, KdG SSO en dataflows voor 15.000+ gebruikers.',
-        kudos: 55,
-        quests: 15,
-        level: 8,
-        linkedin: 'https://linkedin.com/in/JOUWHANDLE',
+        photo: '/src/assets/cian.png',
+        name: 'Cian Van Acker',
+        major: 'dev',
+        linkedin: 'https://www.linkedin.com/in/cian-van-acker-878233332/',
     },
 ]
 
@@ -69,14 +54,6 @@ export const ARCHETYPES = [
     {icon: '🛡️', type: "guardian"},
 ]
 
-// ── SLIDES ────────────────────────────────────────────
-export const SLIDES = [
-    {emoji: '📊', num: 'Deck 01', title: 'Initiële Pitch — Probleem & Oplossing', color: 'st1', url: '#'},
-    {emoji: '🎮', num: 'Deck 02', title: 'Gamification Deep Dive', color: 'st2', url: '#'},
-    {emoji: '🏛️', num: 'Deck 03', title: 'Tech Architectuur & KdG', color: 'st3', url: '#'},
-    {emoji: '📈', num: 'Deck 04', title: "Metrics & KPI's", color: 'st4', url: '#'},
-]
-
 // ── TECH STACK ────────────────────────────────────────
 export const TECH = [
     {icon: '💪', name: 'Angular', role: 'Frontend', bg: 'rgba(221,0,49,.15)'},
@@ -84,9 +61,6 @@ export const TECH = [
     {icon: '🐘', name: 'PostgreSQL', role: 'Database', bg: 'rgba(51,103,145,.2)'},
     {icon: '🏫', name: 'KdG SSO + AD', role: 'Integratie', bg: 'rgba(74,184,184,.15)'},
 ]
-
-// ── PLATFORMS ─────────────────────────────────────────
-export const PLATFORMS = ['Intranet', 'Canvas', 'TimeEdit', 'eStudentService', 'ECTS Fiches']
 
 // ── NAV SECTIONS ──────────────────────────────────────
 export const NAV_SECTIONS = [

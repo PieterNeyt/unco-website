@@ -151,12 +151,33 @@
   "slides": {
     "sub-tit": "Presentatie",
     "title": "Conference slides",
-    "sub-txt": "Slide deck van onze pitch. Klik om te bekijken of te downloaden.",
-    "note": "Gebouwd met Angular aan de frontend en Go (Golang) als backend. Live gekoppeld aan het KdG-rooster, Active Directory en Single Sign-On."
+    "sub-txt": "Slide deck van onze pitch. Klik om te bekijken of te downloaden."
   },
   "team": {
     "sub-tit": "Het team",
     "title": "De bouwers",
-    "text": "Drie studenten met een missie om de eerste 100 dagen echt te laten tellen."
+    "text": "Drie studenten met een missie om de eerste 100 dagen echt te laten tellen.",
+    "dev": "Applicatieontwikkeling"
+  },
+  "toolbar": {
+    "zoom": {
+      "in": "Inzoomen",
+      "out": "Uitzoomen",
+      "fitPage": "Pagina passend",
+      "fitWidth": "Breedte passend",
+      "fitHeight": "Hoogte passend",
+      "actual": "Werkelijke grootte"
+    },
+    "viewer": {
+      "download": "Downloaden",
+      "fullscreen": "Volledig scherm",
+      "exitFullscreen": "Volledig scherm sluiten"
+    },
+    "nav": {
+      "prev": "Vorige pagina",
+      "page": "Pagina",
+      "of": "van",
+      "next": "Volgende pagina"
+    }
   }
 }

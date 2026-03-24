@@ -10,9 +10,22 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@embedpdf/core": "^2.9.1",
+    "@embedpdf/engines": "^2.9.1",
+    "@embedpdf/plugin-document-manager": "^2.9.1",
+    "@embedpdf/plugin-i18n": "^2.9.1",
+    "@embedpdf/plugin-interaction-manager": "^2.9.1",
+    "@embedpdf/plugin-render": "^2.9.1",
+    "@embedpdf/plugin-scroll": "^2.9.1",
+    "@embedpdf/plugin-tiling": "^2.9.1",
+    "@embedpdf/plugin-viewport": "^2.9.1",
+    "@embedpdf/plugin-zoom": "^2.9.1",
+    "@embedpdf/react-pdf-viewer": "^2.9.1",
+    "@embedpdf/snippet": "^2.9.1",
     "i18next": "^25.10.4",
     "i18next-browser-languagedetector": "^8.2.1",
     "i18next-http-backend": "^3.0.2",
+    "lucide-react": "^1.6.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "react-i18next": "^16.6.1"
