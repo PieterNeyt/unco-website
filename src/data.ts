@@ -3,19 +3,19 @@ import {Member} from "@/model/member.ts";
 
 export const TEAM: Member[] = [
     {
-        photo: '/src/assets/hugo.jpg',
+        photo: '/hugo.jpg',
         name: 'Hugo Dor',
         major: 'dev',
         linkedin: 'https://www.linkedin.com/in/hugo-dor/',
     },
     {
-        photo: '/src/assets/pieter.png',
+        photo: '/pieter.png',
         name: 'Pieter Neyt',
         major: 'dev',
         linkedin: 'https://www.linkedin.com/in/pieter-neyt/',
     },
     {
-        photo: '/src/assets/cian.png',
+        photo: '/cian.png',
         name: 'Cian Van Acker',
         major: 'dev',
         linkedin: 'https://www.linkedin.com/in/cian-van-acker-878233332/',
